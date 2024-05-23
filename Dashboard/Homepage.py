@@ -46,7 +46,7 @@ def calculate_averages(data):
 
 
 # Load the data
-data = load_data('cleaned_data.csv')
+data = load_data(get_file_path('cleaned_data.csv'))
 avg_values = calculate_averages(data)
 
 # Page title
